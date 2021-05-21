@@ -1,0 +1,21 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "this project was created by hobby is a simple game of rock paper or scissors",
+  "scripts": {
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheoFonck73/Rock-paper-or-scissors.git"
+  },
+  "keywords": [
+    "rock"
+  ],
+  "author": "MatheoFonck73",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheoFonck73/Rock-paper-or-scissors/issues"
+  },
+  "homepage": "https://github.com/MatheoFonck73/Rock-paper-or-scissors#readme"
+}

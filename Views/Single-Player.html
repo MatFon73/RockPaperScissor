@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="../favicon.png" />
+
+    <!--Css-->
+    <link
+      rel="stylesheet"
+      href="../Library/bootstrap-4.4.1-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="../Library/fontawesome-5.13.0/css/all.css" />
+    <link rel="stylesheet" href="../css/Single-Player.css" />
+
+    <title>Single Players</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="Menu">
+        <a
+          title="Back Page"
+          href="../Index.html"
+          class="btn btn"
+          style="float: left; color: white; font-size: 25px"
+          ><i class="fas fa-hand-point-left"></i
+        ></a>
+        <h2 style="color: #ffffff" class="text-center">
+          Rock, paper or scissors
+        </h2>
+      </div>
+      <div class="Line">
+        <hr style="width: 385%; margin-left: 5%;"/>
+      </div>
+      <div class="Player">
+        <div>
+          <h3>Player 1</h3>
+          <h3 id="point1">0</h3>
+        </div>
+        <br />
+        <div class="form-row">
+          <div style="margin: 0 auto">
+            <button
+              id="scissors1"
+              onclick="scissors_1()"
+              class="Player_1"
+              type="submit"
+            >
+              <i class="fas fa-hand-peace"></i>
+            </button>
+          </div>
+
+          <div style="margin: 0 auto">
+            <button id="rock1" onclick="rock_1()" class="Player_1" type="submit">
+              <i class="fas fa-hand-rock"></i>
+            </button>
+          </div>
+
+          <div style="margin: 0 auto">
+            <button
+              id="paper1"
+              onclick="paper_1()"
+              class="Player_1"
+              type="submit"
+            >
+              <i class="fas fa-hand-paper"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="Bot">
+        <div>
+          <h3>Bot</h3>
+          <h3 id="point2">0</h3>
+        </div>
+        <br />
+        <div class="form-row">
+          <div style="margin: 0 auto">
+            <button
+              id="scissors2"
+              class="Bot_1"
+              type="submit"
+            >
+              <i class="fas fa-hand-peace"></i>
+            </button>
+          </div>
+
+          <div style="margin: 0 auto">
+            <button id="rock2"  
+            class="Bot_1" type="submit">
+              <i class="fas fa-hand-rock"></i>
+            </button>
+          </div>
+
+          <div style="margin: 0 auto">
+            <button
+              id="paper2"
+              class="Bot_1"
+              type="submit"
+            >
+              <i class="fas fa-hand-paper"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="Winner">
+        <div class="answer" id="answer"></div>
+        <div id="try" class="try">
+          <button onclick="retry()" class="retry" type="submit">
+            <i class="fas fa-redo-alt"></i>
+          </button>
+        </div>
+      </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="../Library/Jquery-3.5.0/jquery-3.5.0.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="../Library/bootstrap-4.4.1-dist/js/bootstrap.min.js"
+  ></script>
+  <script type="text/javascript" src="../Js/Single-Player.js"></script>
+</html>
