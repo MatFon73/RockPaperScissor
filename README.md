@@ -17,4 +17,4 @@
 
 - 6 buttons with which the actions of the game are carried out for player 1 and player 2.
 
-###END
+### END

@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatheoFonck73/Rock-paper-or-scissors.git"
+    "url": "git+https://github.com/MatheoFonck73/RockPaperScissor.git"
   },
   "keywords": [
     "rock"
@@ -15,7 +15,7 @@
   "author": "MatheoFonck73",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatheoFonck73/Rock-paper-or-scissors/issues"
+    "url": "https://github.com/MatheoFonck73/RockPaperScissor/issues"
   },
-  "homepage": "https://github.com/MatheoFonck73/Rock-paper-or-scissors#readme"
+  "homepage": "https://github.com/MatheoFonck73/RockPaperScissor#readme"
 }
